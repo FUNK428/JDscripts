@@ -35,7 +35,7 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【京豆签到脚本】'
+      - name: '运行 【京豆签到脚本1】'
         run: |
           node jd_bean_sign.js
         env:
